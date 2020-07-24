@@ -1,0 +1,46 @@
+body {
+	background-color: #cbd5e0;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.fa-home,
+.fa-user,
+.fa-graduation-cap,
+.fa-briefcase,
+.fa-book,
+.fa-envelope {
+	color: rgb(24, 80, 157);
+	font-size: 4em;
+}
+
+.nav-links {
+	height: 10em;
+	background-color: #f7fafc;
+}
+
+.nav-icons {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+}
+
+@media (min-width: 640px) {
+	.nav-icons {
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+		margin: 0;
+	}
+
+	.main-card {
+		background-color: white;
+		border-radius: 15px;
+	}
+}
